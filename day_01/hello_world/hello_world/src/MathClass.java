@@ -19,7 +19,7 @@ public class MathClass {
         System.out.println(Math.round(1.1));
 
 //        Căn
-        System.out.println((int) Math.pow(2, 4));
+        System.out.println(Math.pow(2, 4));
 
 //        Căn bậc hai
         System.out.println(Math.sqrt(9));

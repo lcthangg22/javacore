@@ -1,7 +1,7 @@
 public class Methods {
     public static void main(String[] args) {
  Methods m = new Methods();
- m.sayhello();
+        m.sayhello();
         m.sayHelloWithName(" Luong Thang "); // Argument: Đối số
         int data = m.sum( 10, 20);
         System.out.println(data);
