@@ -20,14 +20,14 @@ public class ForDemo {
 //        }
 //
         // Break
-        for (int day = 1; day <= 30; day++) {
-            if (day == 20) {
-                System.out.println("Không thực hiện nữa");
-                break;
-            }
-
-            System.out.println("Ngày " + day + " thức dậy lúc 7h");
-        }
+//        for (int day = 1; day <= 30; day++) {
+//            if (day == 20) {
+//                System.out.println("Không thực hiện nữa");
+//                break;
+//            }
+//
+//            System.out.println("Ngày " + day + " thức dậy lúc 7h");
+//        }
 //
 //        // continue : Nghỉ xa hơi vào những ngày cuối tuần
 //        for (int day = 1; day <= 30; day++) {

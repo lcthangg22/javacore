@@ -15,7 +15,7 @@ public class Methods2 {
     public static void checkAB( int a, int b) {
         if (a > b) {
             System.out.println("a = " + a);
-        }  else {
+        } else {
             System.out.println("b = " + b);
         }
     }
