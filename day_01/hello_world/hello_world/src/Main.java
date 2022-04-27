@@ -13,8 +13,8 @@ public class Main {
         firstName = "Luong";
         lastName = "Thang";
 
-//        In ra biến
-        System.out.println(firstName);
+////        In ra biến
+//        System.out.println(firstName);
         System.out.println(lastName);
 
 //        Vừa khai báo vừa khởi tạo giá trị cho biến

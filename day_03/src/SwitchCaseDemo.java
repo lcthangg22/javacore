@@ -18,7 +18,7 @@ public class SwitchCaseDemo {
                 break;
             }
             case 8000
-                :
+                    :
             {
                 System.out.println("Cafe đá");
                 break;

@@ -43,13 +43,13 @@ public class ForDemo {
         // Trong vòng 10 ngày, mỗi ngày tiết kiệm 100k => 1000k
 
         // Khi chưa bắt đầu thì số tiền đang có là 0k
-//        int money = 0;
-//        for (int day = 1; day <= 10; day++){
-////            money = money + 100_000;
-//            money += 100_000;
-//        }
-//
-//        System.out.println("Số tiền tiết kiệm được là : " + money);
+        int money = 0;
+        for (int day = 1; day <= 10; day++){
+//            money = money + 100_000;
+            money += 100_000;
+        }
+
+        System.out.println("Số tiền tiết kiệm được là : " + money);
 
         // Random n số ngẫu nhiên trong khoảng 0 -> 100. Nhập vào từ bàn phím
 //        Scanner sc = new Scanner(System.in);

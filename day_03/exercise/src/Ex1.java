@@ -2,16 +2,15 @@ import java.util.Scanner;
 
 public class Ex1 {
     public static void main(String[] args) {
-        repeatString();
+        System.out.println(repeatString("a"));
     }
 
-    public static void repeatString() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập chuỗi : ");
-        String str = sc.nextLine();
-
-        for (int i = 1; i <= 10; i++) {
-            System.out.print(str);
+    public static String repeatString(String str) {
+        String a = str;
+        for (int i = 0; i < 10; i++) {
+            str += a;
         }
+        return str;
+
     }
 }
