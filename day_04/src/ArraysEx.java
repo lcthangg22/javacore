@@ -41,8 +41,7 @@ public class ArraysEx {
 
     public static int findMax(int[] arr){
         int max = arr[0];
-        for (int number :
-                arr) {
+        for (int number : arr) {
             if (number > max) {
                 max = number;
             }
