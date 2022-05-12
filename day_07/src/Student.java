@@ -1,8 +1,8 @@
 public class Student {
     public int id;
     public String name;
-    public int theoryPoint;
-    public int practicePoint;
+    public double theoryPoint;
+    public double practicePoint;
 
     public Student() {
     }
