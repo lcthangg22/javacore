@@ -51,10 +51,10 @@ public class PlayerService {
 
     public ArrayList<Player> buildTeam(int GKNumber, int DFNumber, int MFNumber, int FWNumber) {
         ArrayList<Player> team = new ArrayList<>();
-        ArrayList<Player> GK = this.getPlayers(Position.GK,GKNumber);
-        ArrayList<Player> DF = this.getPlayers(Position.DF,DFNumber);
-        ArrayList<Player> MF = this.getPlayers(Position.MF,MFNumber);
-        ArrayList<Player> FW = this.getPlayers(Position.FW,FWNumber);
+        ArrayList<Player> GK = getPlayers(Position.GK, GKNumber);
+        ArrayList<Player> DF = getPlayers(Position.DF, DFNumber);
+        ArrayList<Player> MF = getPlayers(Position.MF, MFNumber);
+        ArrayList<Player> FW = getPlayers(Position.FW, FWNumber);
         team.addAll(GK);
         team.addAll(DF);
         team.addAll(MF);
@@ -65,20 +65,20 @@ public class PlayerService {
     public ArrayList<Player> getPlayers(Position position, int number) {
         ArrayList<Player> players1 = new ArrayList<>();
         ArrayList<Player> players2 = new ArrayList<>();
-        for (Player player:players) {
-            if(player.getPosition().equals(position)){
+        for (Player player : players) {
+            if (player.getPosition().equals(position)) {
                 players1.add(player);
             }
         }
         Collections.shuffle(players1);
-        for(int i = 0; i<number;i++) {
+        for (int i = 0; i < number; i++) {
             players2.add(players1.get(i));
         }
         return players2;
     }
 
     public void printInfo(ArrayList<Player> team) {
-        for (Player player: team) {
+        for (Player player : team) {
             System.out.println(player);
         }
     }
