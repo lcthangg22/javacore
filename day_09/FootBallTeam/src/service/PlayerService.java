@@ -3,14 +3,13 @@ package service;
 import model.Player;
 import model.Position;
 
-import java.lang.reflect.Array;
+
 import java.util.*;
 
 import static model.Position.*;
 
 public class PlayerService {
 
-    private Random randomPlayer;
     private ArrayList<Player> players;
 
     public PlayerService() {
