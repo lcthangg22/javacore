@@ -21,8 +21,11 @@ public class ex1 {
         int hight;
         System.out.print("Nhập vào chiều cao : ");
         hight = sc.nextInt();
-        for (int i = 1; i <= hight; i++) {
-            System.out.println("* * * *");
+        for (int i = 1; i <= hight; ++i) {
+            for (int j = 1; j <= hight; ++j) {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
     }
 }

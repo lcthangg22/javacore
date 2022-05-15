@@ -26,6 +26,6 @@ public class StudentService {
         System.out.println("Name: " + s.name);
         System.out.println("Theory Point: " + s.theoryPoint);
         System.out.println("Practice Point: " + s.practicePoint);
-        System.out.println("Diem trung binh: " + this.calculateAvgPoint(s.theoryPoint, s.practicePoint));
+        System.out.println("Diem trung binh: " + calculateAvgPoint(s.theoryPoint, s.practicePoint));
     }
 }

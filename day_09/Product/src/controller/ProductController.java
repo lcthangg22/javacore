@@ -66,7 +66,6 @@ public class ProductController {
                                 case 1: {
                                     productService.deleteProduct(product.getId());
                                     System.out.println("Xóa thành công!");
-                                    isContinueSub = false;
                                     break;
                                 }
                                 case 2: {
