@@ -19,7 +19,11 @@ public class Movie extends Film {
 
     @Override
     public String toString() {
-        return "Movie{" +
+        return "Movie{" + "id=" + super.getId() +
+                ", title='" + super.getTitle() + '\'' +
+                ", category='" + super.getCategory() + '\'' +
+                ", director='" + super.getDirector() + '\'' +
+                ", premieredate=" + super.getPremieredate() +
                 "time=" + time +
                 '}';
     }

@@ -1,4 +1,4 @@
-public class Serial extends Film{
+public class Serial extends Film {
     private int filenumber;
     private int averageduration;
 
@@ -29,7 +29,11 @@ public class Serial extends Film{
 
     @Override
     public String toString() {
-        return "Serial{" +
+        return "Serial{" + "id=" + super.getId() +
+                ", title='" + super.getTitle() + '\'' +
+                ", category='" + super.getCategory() + '\'' +
+                ", director='" + super.getDirector() + '\'' +
+                ", premieredate=" + super.getPremieredate() +
                 "filenumber=" + filenumber +
                 ", averageduration=" + averageduration +
                 '}';

@@ -1,0 +1,27 @@
+[
+  {
+    "email": "thang@gmail.com",
+    "password": "12345678",
+    "username": "thang"
+  },
+  {
+    "email": "thang4@gmail.com",
+    "password": "1234567",
+    "username": "thang4"
+  },
+  {
+    "email": "thang1@gmail.com",
+    "password": "1234567",
+    "username": "thang1"
+  },
+  {
+    "email": "thang2@gmail.com",
+    "password": "1234567",
+    "username": "thang2"
+  },
+  {
+    "email": "thang3@gmail.com",
+    "password": "1234567",
+    "username": "thang3"
+  }
+]
