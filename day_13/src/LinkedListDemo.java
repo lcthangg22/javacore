@@ -35,21 +35,21 @@ public class LinkedListDemo {
         System.out.println(set.toString());
 
         // Map interface
-        Map<Integer, String> list = new HashMap<>();
-        list.put(1,"a");
-        list.put(2,"b");
-        list.put(3,"c");
+        Map<Integer, String> map = new HashMap<>();
+        map.put(1,"a");
+        map.put(2,"b");
+        map.put(3,"c");
 
-//        Set<Integer> keyset = list.keySet();
-//        for (Integer key: keyset) {
-//            System.out.println(list.get(key));
-//        }
+        Set<Integer> keyset = map.keySet();
+        for (Integer key: keyset) {
+            System.out.println(map.get(key));
+        }
 
-//        Set<Map.Entry><Integer, String>> entrySet = list.entrySet();
-//        for ( Set<Map.Entry><Integer ,String> entry: entrySet) {
-//            System.out.println(entry.getKey());
-//            System.out.println(entry.getValue());
-//        }
+        Set<Map.Entry<Integer, String>> entrySet = map.entrySet();
+        for (Map.Entry<Integer ,String> entry: entrySet) {
+            System.out.println(entry.getKey());
+            System.out.println(entry.getValue());
+        }
 
         // Class Collections
         ArrayList<Integer> numbers1 = new ArrayList<>();

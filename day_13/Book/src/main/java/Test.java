@@ -7,7 +7,7 @@ public class Test {
     public static void main(String[] args) {
         BookService bookService = new BookService();
         List<Book> books = bookService.getListObjectFromJsonFile("book.json");
-//        bookService.printInfo(books);
+        bookService.printInfo(books);
 
 //        List<Book> books1 = bookService.sortByPagenumber();
 //        for (Book book: books1) {
@@ -21,9 +21,9 @@ public class Test {
 //        }
 
 
-        List<Book> list = bookService.findByCategory("Drama");
-        for (Object book: list) {
-            System.out.println(book);
-        }
+//        List<Book> list = bookService.findByCategory("Drama");
+//        for (Object book: list) {
+//            System.out.println(book);
+//        }
     }
 }
