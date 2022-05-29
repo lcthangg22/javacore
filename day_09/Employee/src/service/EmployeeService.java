@@ -29,7 +29,7 @@ public class EmployeeService {
 
     // In ra thông tin
     public void printInfo(ArrayList<Employee> list) {
-        for (Employee employee: list) {
+        for (Employee employee: list)   {
             System.out.println(employee);
         }
     }
