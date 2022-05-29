@@ -154,6 +154,8 @@ public class UserService {
         histories.addAll(transactionHistories);
         user.setBalance(user.getBalance() - money);
         user1.setBalance(user1.getBalance() + money);
+        convertObjectToJsonFile("user.json", users);
+        convertObjectToJsonFile("transaction-history.json", histories);
         for (User u : users) {
             if (u.getId() == user.getId()) {
                 u = user;
@@ -164,8 +166,6 @@ public class UserService {
                 u = user1;
             }
         }
-        convertObjectToJsonFile("user.json", users);
-        convertObjectToJsonFile("transaction-history.json", histories);
         return newHistory;
     }
 }
