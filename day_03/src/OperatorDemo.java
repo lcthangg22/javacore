@@ -1,8 +1,8 @@
 public class OperatorDemo {
     public static void main(String[] args) {
-//        int a = 30;
-//        int b = 10;
-//
+        int a = 30;
+        int b = 10;
+
 //        // Toán tử ++, --
 //
 //        // c = a -> c = 30;
@@ -17,10 +17,10 @@ public class OperatorDemo {
 //        System.out.println(d);
 //        System.out.println(a);
 //
-//        int e = a++ + ++b;
-//        System.out.println(a);
-//        System.out.println(b);
-//        System.out.println(e);
+        int e = a++*2 + ++b*2;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(e);
 //
 //        int f = ++a + ++b;
 //        System.out.println(a);
@@ -35,9 +35,9 @@ public class OperatorDemo {
 //        // Toán tử hoặc ||
 //        System.out.println(coTien || !troiDep); // false || false => false
 
-        int number = 20;
-        // number = number + 10; // 30
-        number += 10;
-        System.out.println(number);
+//        int number = 20;
+//        // number = number + 10; // 30
+//        number += 10;
+//        System.out.println(number);
     }
 }
